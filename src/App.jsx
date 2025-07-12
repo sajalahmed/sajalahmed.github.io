@@ -1,6 +1,4 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -12,12 +10,6 @@ function App() {
   return (
     <>
       <div className="flex justify-center items-center">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
         <a href="https://tailwindcss.com/" target="_blank">
           <img
             src={tailwindcssSrc}
@@ -39,7 +31,8 @@ function App() {
         Click on the Vite, React, and Tailwind logos to learn more
       </p>
       <p className="text-red-400 font-bold mt-10">Tailwind is working.</p>
-      <h1 className='text-left bg-amber-500'>Howow</h1>
+
+      <h1 className='text-lime-200'>Hello, World</h1>
     </>
   );
 }
